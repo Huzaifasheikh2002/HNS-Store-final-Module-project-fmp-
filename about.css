@@ -5,7 +5,8 @@
 }
 .about-section{
     background: url(./img/5000-series-design\ \(1\).jpg) no-repeat left;
-    background-size: 100%;
+    /* background-size: 100%; */
+    background-size: cover;
     overflow: hidden;
     padding: 100px 0;
     
@@ -39,19 +40,38 @@
 
 @media screen and (max-width:1000px){
     .about-section{
-        background-size: 100%;
-        padding: 100px 40px;
+        /* background-size: 100%; */
+        /* margin: 0 auto; */
+        /* background-position: center; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* padding: 100px 40px; */
+        /* width: 500px; */
     }
     .inner-container{
-        width: 100%;
+        /* width: 20%; */
+        /* padding: 0 auto; */
+        /* justify-content: center; */
+        /* align-items: center; */
     }
 }
 
-@media screen and (max-width:600px){
-    .about-section{
-        padding: 0;
-    }
-    .inner-container{
-        padding: 60px;
-    }
+@media screen and (max-width:850px){
+    
+        .about-section{
+    /* background: url(./img/5000-series-design\ \(1\).jpg) no-repeat left; */
+    /* background-size: 100%; */
+    /* background-size: cover; */
+    /* overflow: hidden; */
+    /* padding: 100px 0; */
+    
+}
+.inner-container{
+    width: 100%;
+    /* height: 800px; */
+    /* float: right; */
+    /* background-color: #fdfdfd; */
+    /* padding: 150px; */
+    /* opacity: 0.8; */
+}
 }

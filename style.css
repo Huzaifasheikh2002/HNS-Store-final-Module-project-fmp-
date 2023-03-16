@@ -49,22 +49,23 @@
     /* background-color: black; */
     
 }
+
 .img1review{
   background:rgba(0,0,0,0.5)url(./img/pc/pccccc.jpg);
     background-size: cover;
-    width: 50%;
-    
+    width: 50%;   
     height: 670px;
  display: inline-block;
 position: relative;
 }
   
-.imgtext1{
+
+/* .imgtext1{
     bottom: 45%;;
     text-align: center;
    position: absolute;
   color: #ffffff;
-}
+} */
 .testimonials { 
 margin-bottom: 180px;
 width:50%;

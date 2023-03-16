@@ -12,7 +12,7 @@ h2{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 20px;
+    
     /* transition: transform 0.5s;
   */
 }
@@ -21,6 +21,7 @@ h2{
 display:flex;
 flex-wrap: wrap;
 margin: 0 auto;
+margin-top: 20px;
 }
 /* .cards-css :hover{
 transform: perspective(100px) translate3d(0px,0px,2px);
@@ -109,3 +110,10 @@ ul{
 .footer-styling{
   margin-top: 100px;
 }
+/* .styling-css{
+  margin-top: 40px;
+} */
+/* .card{
+  border: 1px solid red;
+
+} */
